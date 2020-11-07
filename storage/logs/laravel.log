@@ -1,0 +1,72 @@
+[2020-02-19 08:31:54] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(121): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\xampp\\htdocs\\scripty\\hardware\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(408): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\xampp\\htdocs\\scripty\\hardware\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 C:\\xampp\\htdocs\\scripty\\hardware\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#9 {main}
+"} 
+[2020-02-19 08:31:54] laravel.ERROR: syntax error, unexpected ',', expecting ';' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ',', expecting ';' at C:\\xampp\\htdocs\\scripty\\hardware\\config\\app.php:781)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(219): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(156): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(140): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\xampp\\htdocs\\scripty\\hardware\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 C:\\xampp\\htdocs\\scripty\\hardware\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#7 {main}
+"} 
+[2020-02-19 08:32:02] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(121): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\xampp\\htdocs\\scripty\\hardware\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(408): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\xampp\\htdocs\\scripty\\hardware\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 C:\\xampp\\htdocs\\scripty\\hardware\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#9 {main}
+"} 
+[2020-02-19 08:32:02] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\xampp\\htdocs\\scripty\\hardware\\config\\app.php:832)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(219): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(156): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(140): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\xampp\\htdocs\\scripty\\hardware\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 C:\\xampp\\htdocs\\scripty\\hardware\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#7 {main}
+"} 
+[2020-02-19 08:32:30] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:192)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(118): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(98): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(547): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(121): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\xampp\\htdocs\\scripty\\hardware\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(408): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\xampp\\htdocs\\scripty\\hardware\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 C:\\xampp\\htdocs\\scripty\\hardware\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#9 {main}
+"} 
+[2020-02-19 08:32:30] laravel.ERROR: syntax error, unexpected ';', expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting ']' at C:\\xampp\\htdocs\\scripty\\hardware\\config\\app.php:833)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(219): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(156): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(140): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\xampp\\htdocs\\scripty\\hardware\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\xampp\\htdocs\\scripty\\hardware\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 C:\\xampp\\htdocs\\scripty\\hardware\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
+#7 {main}
+"} 
